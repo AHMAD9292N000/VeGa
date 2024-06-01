@@ -4,7 +4,7 @@ from os import getenv
 from dotenv import load_dotenv
 from pyrogram import filters
 
-super_sudoers = [6753126490]
+super_sudoers = [6984022456]
 
 load_dotenv()
 
@@ -38,7 +38,7 @@ UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
     "https://github.com/AHMAD9292N000/VeGa",
 )
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "vega")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "F_O_01")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
